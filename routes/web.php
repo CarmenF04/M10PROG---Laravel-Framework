@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// routes/web.php
+
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CatsController;
+use App\Http\Controllers\DogsController;
+
+// Route naar de homepagina
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+// Route naar de cats pagina
+Route::get('/cats', [CatsController::class, 'index'])->name('cats.index');
+
+// Route naar de dogs pagina
+Route::get('/dogs', [DogsController::class, 'index'])->name('dogs.index');

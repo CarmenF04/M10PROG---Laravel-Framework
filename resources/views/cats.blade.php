@@ -37,8 +37,7 @@
             </nav>
         </header>
         <main class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias provident libero quidem vel facilis! Maiores distinctio ex deleniti earum ea commodi. Asperiores, deleniti voluptatem. Alias sit ex dignissimos accusantium nam.
-            Officiis, omnis nemo amet dolorem at perspiciatis, quidem sed veritatis voluptas expedita aspernatur beatae perferendis reiciendis sit nam culpa temporibus eaque ipsam excepturi veniam ex minus reprehenderit pariatur! Ipsam, sequi!</p>
+            <p>DOGGGGGG</p>
         </main>
         <footer>
             <p>&copy; Carmen. Alle rechten voorbehouden.</p>
