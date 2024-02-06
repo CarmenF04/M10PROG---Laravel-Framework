@@ -19,30 +19,24 @@
     </head>
     <body>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mijn Webpagina</title>
-    <link rel="stylesheet" href="app.css">
-</head>
+    <link href="/dist/app.css" rel="stylesheet"></head>
 <body>
     <div class="layout-container">
         <header>
             <img src="https://img.freepik.com/premium-vector/funny-cat-logo_391020-422.jpg?w=740" alt="Logo" class="logo">
             <nav>
                 <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#cats">Cats</a></li>
-                    <li><a href="#dogs">Dogs</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/cats">Cats</a></li>
+                    <li><a href="/dogs">Dogs</a></li>
                 </ul>
             </nav>
         </header>
         <main class="content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias provident libero quidem vel facilis! Maiores distinctio ex deleniti earum ea commodi. Asperiores, deleniti voluptatem. Alias sit ex dignissimos accusantium nam.
             Officiis, omnis nemo amet dolorem at perspiciatis, quidem sed veritatis voluptas expedita aspernatur beatae perferendis reiciendis sit nam culpa temporibus eaque ipsam excepturi veniam ex minus reprehenderit pariatur! Ipsam, sequi!</p>
-        </main>
-        <footer>
-            <p>&copy; Carmen. Alle rechten voorbehouden.</p>
-        </footer>
+            </main>
     </div>
 </body>
 </html>

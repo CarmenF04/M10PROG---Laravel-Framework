@@ -30,18 +30,16 @@
             <img src="https://img.freepik.com/premium-vector/funny-cat-logo_391020-422.jpg?w=740" alt="Logo" class="logo">
             <nav>
                 <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#cats">Cats</a></li>
-                    <li><a href="#dogs">Dogs</a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
+                    <li><a href="/cats">Cats</a></li>
+                    <li><a href="/dogs">Dogs</a></li>
                 </ul>
             </nav>
         </header>
         <main class="content">
-            <p>DOGGGGGG</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Barnevelder_Cock.png" alt="">
         </main>
-        <footer>
-            <p>&copy; Carmen. Alle rechten voorbehouden.</p>
-        </footer>
+        
     </div>
 </body>
 </html>

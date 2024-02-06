@@ -20,10 +20,12 @@ use App\Http\Controllers\CatsController;
 use App\Http\Controllers\DogsController;
 
 // Route naar de homepagina
-Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Route naar de cats pagina
 Route::get('/cats', [CatsController::class, 'index'])->name('cats.index');
 
 // Route naar de dogs pagina
 Route::get('/dogs', [DogsController::class, 'index'])->name('dogs.index');
+
+Route::get('/cat/{dier}', [CatsController::class, 'show'])->name('cats.show');

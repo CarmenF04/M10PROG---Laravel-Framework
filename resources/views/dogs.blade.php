@@ -22,17 +22,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mijn Webpagina</title>
-    <link rel="stylesheet" href="app.css">
-</head>
+    <link href="/dist/app.css" rel="stylesheet"></head>
 <body>
     <div class="layout-container">
         <header>
             <img src="https://img.freepik.com/premium-vector/funny-cat-logo_391020-422.jpg?w=740" alt="Logo" class="logo">
             <nav>
                 <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#cats">Cats</a></li>
-                    <li><a href="#dogs">Dogs</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/cats">Cats</a></li>
+                    <li><a href="/dogs">Dogs</a></li>
                 </ul>
             </nav>
         </header>
